@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-27 00:09:00",
+  "total_test_samples": 60,
+  "models": {
+    "pytorch_cnn": {
+      "name": "IndustrialMeter PyTorch CNN",
+      "exact_accuracy_percent": 43.33,
+      "digit_accuracy_percent": 81.99,
+      "character_error_rate": 0.1801,
+      "avg_inference_time_ms": 2.78,
+      "min_inference_time_ms": 2.06,
+      "max_inference_time_ms": 23.61,
+      "trainable_parameters": 357325
+    },
+    "baseline_ocr": {
+      "name": "Conventional 7-Segment OCR",
+      "exact_accuracy_percent": 33.33,
+      "digit_accuracy_percent": 80.08,
+      "character_error_rate": 0.1992,
+      "avg_inference_time_ms": 1.09,
+      "min_inference_time_ms": 0.81,
+      "max_inference_time_ms": 1.65,
+      "trainable_parameters": 0
+    }
+  }
+}
